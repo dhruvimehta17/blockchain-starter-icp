@@ -1,0 +1,5 @@
+service : {
+  create_switch : (text, nat64, text, text, nat64) -> ();
+  check_in : (text) -> ();
+  check_status : (text) -> (opt text);
+}
